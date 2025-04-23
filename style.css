@@ -1,0 +1,69 @@
+body {
+    font-family: 'Consolas', monospace;
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 20px;
+    direction: rtl;
+}
+
+  h1 {
+    
+    color: #f0f3f4;
+    
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+  h2 {
+  
+    color: #f0f3f4 ;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+  }
+
+  .table-container {
+    width: 85%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.05); /* جدول شفاف */
+    border-radius: 15px;
+    border: 1px solid #00ffe7;
+    box-shadow: 0 0 15px #00ffe799;
+    overflow-x: auto;
+  }
+
+  table {
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 10%;
+  }
+
+  th, td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #00ffe744;
+  }
+
+  th {
+    border: 30px ;
+    background-color: rgba(0, 255, 231, 0.1);
+    color: #00ffe7;
+    font-size: 18px;
+  }
+  button {
+    background-color: #245ca5;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-family: 'Consolas', monospace;
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #3c6b91;
+    color: #ffffff;
+  }
